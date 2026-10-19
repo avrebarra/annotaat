@@ -1,0 +1,12 @@
+.DS_Store
+*.log
+node_modules/
+dist/
+*.vsix
+
+# epiq: local hydrated state is never committed
+.epiq/events/
+.epiq/log/
+
+# annotations storage (if ever opened as workspace)
+.vscode/annotations/
